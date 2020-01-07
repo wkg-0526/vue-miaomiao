@@ -1,7 +1,7 @@
 <template>
   <div id="footer">
     <ul>
-      <router-link tag="li" :to="{name:'Movie'}" class="active">
+      <router-link tag="li" :to="{name:'Movie'}">
         <i class="iconfont icon-dianying"></i>
         <p>电影</p>
       </router-link>
@@ -50,5 +50,8 @@ export default {};
 #footer ul p {
   font-size: 12px;
   line-height: 18px;
+}
+.router-link-active {
+  color: #0c6edf;
 }
 </style>
