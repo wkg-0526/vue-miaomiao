@@ -1,18 +1,35 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="main">
+    <Header></Header>
+    <div class="content">
+      <keep-alive>
+        <router-view />
+      </keep-alive>
+    </div>
+    <TabBar></TabBar>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import TabBar from "@/components/TabBar";
+import Header from "@/components/Header";
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    HelloWorld
+    TabBar,
+    Header
   }
-}
+};
 </script>
+<style scoped>
+#main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+  overflow: auto;
+  background: firebrick;
+}
+</style>
