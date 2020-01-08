@@ -9,10 +9,14 @@ const routes = [
     path: '',
     redirect: '/home'
   }, {
-    path: '/',
+    path: '/home',
     name: 'home',
     component: Home,
     children: [
+      {
+        path: '/',
+        redirect: 'movie'
+      },
       {
         path: 'cinema',
         name: 'Cinema',
@@ -29,11 +33,11 @@ const routes = [
       },
     ]
   },
-
 ]
-
 const router = new VueRouter({
-  routes
-})
 
+  mode: 'history',
+  routes,
+
+});
 export default router
