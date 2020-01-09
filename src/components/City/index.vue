@@ -16,10 +16,10 @@
 export default {
   data() {
     return {
-      // HotCity: []
-      prop: {
-        city: HotCity
-      }
+      HotCity: []
+      // prop: {
+      //   city: HotCity
+      // }
     };
   },
   mounted() {
