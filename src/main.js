@@ -1,19 +1,19 @@
-import Vue from 'vue'
+import Vue from 'vue';
 import Vant from 'vant';
 import 'vant/lib/index.css';
-import App from './App.vue'
-import router from './router'
-import store from './store'
-import axios from 'axios'
+import App from './App.vue';
+import router from './router';
+import store from './store';
+import axios from 'axios';
 
 Vue.prototype.axios = axios;
 
 Vue.use(Vant);
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+	router,
+	store,
+	render: (h) => h(App),
+}).$mount('#app');

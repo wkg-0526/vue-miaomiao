@@ -30,6 +30,5 @@ export default {
 .content {
   flex: 1;
   overflow: auto;
-  background: firebrick;
 }
 </style>

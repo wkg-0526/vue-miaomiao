@@ -12,7 +12,7 @@ import NavBar from "@/components/NavBar";
 export default {
   data() {
     return {
-      title: "我是Movie"
+      
     };
   },
   components: {

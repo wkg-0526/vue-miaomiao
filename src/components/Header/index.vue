@@ -15,7 +15,9 @@ export default {};
   color: #fff;
   background: #0c6edf;
   border-bottom: 1px solid #0c6edf;
-  position: relative;
+  /* position: relative; */
+  /* top: 0;
+  left: 0; */
   text-align: center;
   line-height: 50px;
 }
