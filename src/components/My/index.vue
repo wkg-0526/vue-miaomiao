@@ -1,37 +1,6 @@
 <template>
   <div>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
-    <h1>my</h1>
+    <h1>你好</h1>
   </div>
 </template>
 

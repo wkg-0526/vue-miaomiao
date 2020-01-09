@@ -35,6 +35,9 @@ export default {
 </script>
 
 <style scoped>
+#content{
+  margin-bottom: 0
+}
 #content .movie_menu {
   width: 100%;
   height: 45px;
